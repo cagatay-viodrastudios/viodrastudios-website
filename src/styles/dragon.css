@@ -1,0 +1,16 @@
+/* Dragon Scale Pattern */
+.dragon-scales {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.05;
+    background-image:
+        radial-gradient(circle at 50% 50%, transparent 50%, var(--color-primary) 50%),
+        radial-gradient(circle at 0% 50%, transparent 50%, var(--color-primary) 50%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    pointer-events: none;
+}
